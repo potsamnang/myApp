@@ -111,7 +111,7 @@ const Navbar = () => {
       {isClick && (
         <ul className="md:hidden w-screen sticky top-0 flex flex-col gap-2 bg-gray-200 border-b-2 pb-4 text-lg font-medium">
           <li className="hover:bg-gray-300 px-7 py-2 rounded-md transition duration-500">
-            <Link to="home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li className="hover:bg-gray-300 px-7 py-2 rounded-md transition duration-500 ">
             <Link to="about">About</Link>
