@@ -9,7 +9,9 @@ const Home = () => {
       </h1>
       <div className="w-11/12 flex m-auto mb-5 border-gray-200  shadow-xl cursor-pointer rounded-md overflow-hidden hover:bg-blue-100 bg-slate-100">
         <div className="w-60 h-auto flex justify-center items-center text-center bg-red-100">
-          <h1 className="text-[2rem] font-extrabold">HTML</h1>
+          <h1 className="text-[1.5rem] md:text-[2rem] lg:text-[2rem] font-extrabold">
+            HTML
+          </h1>
         </div>
         <div className="flex flex-col w-full justify-start px-5 py-3">
           <Link to="html" className="text-xl font-bold mb-5">
@@ -25,7 +27,9 @@ const Home = () => {
       </div>
       <div className="w-11/12 flex m-auto mb-5 border-gray-200  shadow-xl cursor-pointer rounded-md overflow-hidden hover:bg-blue-100 bg-slate-100">
         <div className="w-60 h-auto flex justify-center items-center text-center bg-red-100">
-          <h1 className="text-[2rem] font-extrabold">CSS</h1>
+          <h1 className="text-[1.5rem] md:text-[2rem] lg:text-[2rem] font-extrabold">
+            CSS
+          </h1>
         </div>
         <div className="flex flex-col w-full justify-start px-5 py-3">
           <Link to="html" className="text-xl font-bold mb-5">
@@ -41,7 +45,9 @@ const Home = () => {
       </div>
       <div className="w-11/12 flex m-auto mb-5 border-gray-200  shadow-xl cursor-pointer rounded-md overflow-hidden hover:bg-blue-100 bg-slate-100">
         <div className="w-60 h-auto flex justify-center items-center text-center bg-red-100">
-          <h1 className="text-[2rem] font-extrabold">Javascript</h1>
+          <h1 className="text-[1.5rem] md:text-[2rem] lg:text-[2rem] font-extrabold">
+            Javascript
+          </h1>
         </div>
         <div className="flex flex-col w-full justify-start px-5 py-3">
           <Link to="html" className="text-xl font-bold mb-5">
@@ -56,7 +62,9 @@ const Home = () => {
       </div>
       <div className="w-11/12 flex m-auto mb-5 border-gray-200  shadow-xl cursor-pointer rounded-md overflow-hidden hover:bg-blue-100 bg-slate-100">
         <div className="w-60 h-auto flex justify-center items-center text-center bg-red-100">
-          <h1 className="text-[2rem] font-extrabold">ReactJS</h1>
+          <h1 className="text-[1.5rem] md:text-[2rem] lg:text-[2rem] font-extrabold">
+            ReactJS
+          </h1>
         </div>
         <div className="flex flex-col w-full justify-start px-5 py-3">
           <Link to="reactjs" className="text-xl font-bold mb-5">
